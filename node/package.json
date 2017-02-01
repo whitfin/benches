@@ -1,0 +1,28 @@
+{
+  "name": "benches",
+  "version": "1.0.0",
+  "description": "Benchmarking suites for Node.js",
+  "private": true,
+  "author": {
+    "name": "Isaac Whitfield",
+    "email": "iw@zackehh.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zackehh/benches.git"
+  },
+  "bugs": {
+    "email": "iw@zackehh.com",
+    "url": "http://github.com/zackehh/benches/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "bench": "node index.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.3",
+    "lodash": "^4.17.4",
+    "microtime": "^2.1.2"
+  }
+}
